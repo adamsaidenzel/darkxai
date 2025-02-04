@@ -3,60 +3,128 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DarkXAI - AI Solutions & Services</title>
+    <title>DarkXAI - AI Innovation & Solutions</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <div class="container">
-            <h1 class="logo">DarkXAI<span class="domain">darkxai.in</span></h1>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
+    <header class="header">
+        <nav class="nav container">
+            <a href="#" class="logo">
+                <span class="logo-gradient">DarkXAI</span>
+                <span class="logo-domain">darkxai.in</span>
+            </a>
+            
+            <div class="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#solutions">Solutions</a></li>
+                    <li><a href="#industries">Industries</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact" class="cta-button">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
-    <section id="home" class="hero">
+    <section class="hero">
         <div class="container">
-            <h2>Transform Your Business with AI</h2>
-            <p>Leading provider of enterprise AI solutions and consulting services</p>
-        </div>
-    </section>
-
-    <section id="services" class="services">
-        <div class="container">
-            <h3>Our Services</h3>
-            <div class="services-grid">
-                <div class="service-card">
-                    <h4>AI Development</h4>
-                    <p>Custom neural network development for predictive analytics, natural language processing solutions, and computer vision systems tailored to your business needs</p>
-                </div>
-                <div class="service-card">
-                    <h4>Process Automation</h4>
-                    <p>End-to-end automation using RPA and AI-driven workflows for supply chain optimization, customer service automation, and operational efficiency enhancement</p>
-                </div>
-                <div class="service-card">
-                    <h4>Data Analytics</h4>
-                    <p>Big data processing with real-time analytics dashboards, predictive maintenance models, and customer behavior analysis powered by deep learning</p>
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="gradient-text">Transform Your Business</span><br>
+                    With AI Innovation
+                </h1>
+                <p class="hero-subtitle">Enterprise-grade AI solutions & strategic consulting</p>
+                <div class="hero-cta">
+                    <a href="#contact" class="cta-button">Schedule Consultation</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="contact" class="contact">
+    <section id="solutions" class="solutions section-padding">
         <div class="container">
-            <h3>Get in Touch</h3>
-            <form id="contactForm">
-                <div class="form-group">
-                    <input type="email" placeholder="Email" required>
+            <h2 class="section-title">Our AI Expertise</h2>
+            <div class="solutions-grid">
+                <div class="solution-card">
+                    <i class="fas fa-brain solution-icon"></i>
+                    <h3>AI Product Development</h3>
+                    <ul class="solution-features">
+                        <li>Intelligent Chatbots & Virtual Assistants</li>
+                        <li>Predictive Analytics Systems</li>
+                        <li>Computer Vision Solutions</li>
+                        <li>Generative AI Applications</li>
+                    </ul>
                 </div>
-                <div class="form-group">
-                    <textarea placeholder="Message" required></textarea>
+
+                <div class="solution-card">
+                    <i class="fas fa-cogs solution-icon"></i>
+                    <h3>AI Services</h3>
+                    <ul class="solution-features">
+                        <li>Custom Model Development</li>
+                        <li>Process Automation</li>
+                        <li>Business Intelligence</li>
+                        <li>System Integration</li>
+                    </ul>
                 </div>
-                <button type="submit">Send Message</button>
-            </form>
+
+                <div class="solution-card">
+                    <i class="fas fa-chart-line solution-icon"></i>
+                    <h3>AI Strategy</h3>
+                    <ul class="solution-features">
+                        <li>Technology Roadmapping</li>
+                        <li>Digital Transformation</li>
+                        <li>Ethical AI Frameworks</li>
+                        <li>Compliance & Security</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="industries" class="industries section-padding">
+        <div class="container">
+            <h2 class="section-title">Industry Solutions</h2>
+            <div class="industry-grid">
+                <div class="industry-card healthcare">
+                    <h3>Healthcare</h3>
+                    <p>AI-driven diagnostics, predictive analytics, and medical automation</p>
+                </div>
+                <div class="industry-card finance">
+                    <h3>Finance</h3>
+                    <p>Fraud detection, risk management, and algorithmic trading</p>
+                </div>
+                <div class="industry-card retail">
+                    <h3>Retail</h3>
+                    <p>Personalized marketing, demand forecasting, and CX automation</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact section-padding">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2 class="section-title">Start Your AI Journey</h2>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Project Requirements" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="cta-button">Submit Inquiry</button>
+                </form>
+            </div>
         </div>
     </section>
 
