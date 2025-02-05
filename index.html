@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DarkXAI - AI Innovation & Solutions</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon"> <!-- Replace with actual logo -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -12,20 +13,25 @@
         <nav class="nav container">
             <a href="#" class="logo">
                 <span class="logo-gradient">DarkXAI</span>
-                <span class="logo-domain">darkxai.in</span>
             </a>
             
             <div class="nav-menu">
                 <ul class="nav-list">
                     <li><a href="#solutions">Solutions</a></li>
                     <li><a href="#industries">Industries</a></li>
-                    <li><a href="#about">About</a></li>
+                    <!-- 
+                      "About" navigates to #team 
+                      which now contains both the About content 
+                      and the Meet the Team section 
+                    -->
+                    <li><a href="#team">About</a></li>
                     <li><a href="#contact" class="cta-button">Contact</a></li>
                 </ul>
             </div>
         </nav>
     </header>
 
+    <!-- Hero Section -->
     <section class="hero">
         <div class="container">
             <div class="hero-content">
@@ -41,6 +47,7 @@
         </div>
     </section>
 
+    <!-- Solutions Section -->
     <section id="solutions" class="solutions section-padding">
         <div class="container">
             <h2 class="section-title">Our AI Expertise</h2>
@@ -81,6 +88,7 @@
         </div>
     </section>
 
+    <!-- Industries Section -->
     <section id="industries" class="industries section-padding">
         <div class="container">
             <h2 class="section-title">Industry Solutions</h2>
@@ -101,18 +109,122 @@
         </div>
     </section>
 
+    <!-- About & Team Section -->
+    <section id="team" class="team section-padding">
+        <div class="container">
+
+            <!-- About DarkXAI -->
+            <h2 class="section-title">About DarkXAI</h2>
+            <div class="about-content">
+                <p>
+                    At <strong>DarkXAI</strong>, we are at the forefront of 
+                    <strong>Artificial Intelligence innovation</strong>, committed to 
+                    delivering cutting-edge solutions that not only solve complex 
+                    business problems but also revolutionize the way industries operate. 
+                    Our goal is to empower enterprises with <strong>AI-driven automation, 
+                    data-driven insights, and seamless integration</strong> into existing 
+                    workflows.
+                </p>
+                <p>
+                    Backed by a team of skilled <strong>AI engineers, data scientists, 
+                    software developers,</strong> and <strong>UX experts</strong>, we 
+                    specialize in creating AI products and services tailored to a wide 
+                    range of sectors—from <strong>Healthcare</strong> and 
+                    <strong>Finance</strong> to <strong>Retail</strong> and beyond. 
+                    Whether you’re looking to harness predictive analytics, computer 
+                    vision, or advanced NLP, DarkXAI is your trusted partner in 
+                    digital transformation.
+                </p>
+                <p>
+                    <strong>Our Vision:</strong> 
+                    To foster a future where AI accelerates human potential, enabling 
+                    smarter decisions, efficient processes, and greater sustainability 
+                    across industries.
+                </p>
+                <p>
+                    <strong>Our Mission:</strong><br>
+                    - Develop <strong>state-of-the-art AI solutions</strong> that address 
+                    real-world challenges.<br>
+                    - Advocate for <strong>ethical AI practices</strong>, ensuring fairness, 
+                    transparency, and data security.<br>
+                    - Provide businesses with <strong>scalable and robust AI frameworks</strong> 
+                    that support long-term growth.
+                </p>
+                <p>
+                    From <strong>AI-powered chatbots</strong> to <strong>enterprise-level 
+                    automation</strong>, we believe that every innovation should bring 
+                    measurable value and positive impact. DarkXAI is driven by a commitment 
+                    to continuous research, development, and collaboration—helping clients 
+                    stay ahead in a rapidly evolving technology landscape.
+                </p>
+            </div>
+
+            <!-- Meet the Team -->
+            <h2 class="section-title">The Minds Behind DarkXAI</h2>
+            <div class="team-grid">
+
+                <!-- Founder Card -->
+                <div class="team-card">
+                    <div class="team-card-header">
+                        <div class="team-card-image founder-image"></div>
+                        <h3>Adama Saikumar</h3>
+                        <p>Founder & CEO</p>
+                    </div>
+                    <div class="team-card-body">
+                        <p class="team-bio">AI visionary with expertise in deep learning and business strategy. Leading DarkXAI's mission to transform industries through ethical AI innovation.</p>
+                        <div class="team-quote">
+                            <i class="fas fa-quote-left"></i>
+                            <blockquote>"AI should augment human potential, not replace it."</blockquote>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Engineering Team Card -->
+                <div class="team-card">
+                    <div class="team-card-header">
+                        <div class="team-card-image engineer-image"></div>
+                        <h3>AI Engineering Team</h3>
+                        <p>Innovation Architects</p>
+                    </div>
+                    <div class="team-card-body">
+                        <ul class="team-expertise">
+                            <li><i class="fas fa-microchip"></i> Neural Network Design</li>
+                            <li><i class="fas fa-robot"></i> Machine Learning Models</li>
+                            <li><i class="fas fa-shield-alt"></i> AI Security</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
     <section id="contact" class="contact section-padding">
         <div class="container">
             <div class="contact-grid">
                 <div class="contact-info">
                     <h2 class="section-title">Start Your AI Journey</h2>
                     <div class="social-links">
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-github"></i></a>
+                        <!-- 
+                          Optional Social Media Icons
+                          Uncomment or edit as needed
+                        -->
+                        <a href="https://wa.me/919603888800" target="_blank">
+                            <i class="fab fa-whatsapp"></i> WhatsApp
+                        </a>
+                        <a href="https://instagram.com/919603888800" target="_blank">
+                            <i class="fab fa-instagram"></i> Instagram
+                        </a>
+                        <a href="https://facebook.com/919603888800" target="_blank">
+                            <i class="fab fa-facebook"></i> Facebook
+                        </a>
+                        <a href="https://github.com/DarkXAI" target="_blank">
+                            <i class="fab fa-github"></i> Git
+                        </a>
                     </div>
                 </div>
-                <form class="contact-form">
+                <form class="contact-form" id="contactForm">
                     <div class="form-group">
                         <input type="text" placeholder="Name" required>
                     </div>
@@ -128,6 +240,50 @@
         </div>
     </section>
 
-    <script src="script.js"></script>
+    <!-- Form Handling Script -->
+    <script>
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+        
+        const formData = {
+            email: this.querySelector('[type="email"]').value,
+            message: this.querySelector('textarea').value
+        };
+
+        // Formspree integration (requires setup at formspree.io)
+        fetch('https://formspree.io/f/datesoon@getdate.in', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(formData)
+        })
+        .then(response => {
+            if (response.ok) {
+                showMessage('Message sent successfully! We\'ll respond shortly.', 'success');
+                this.reset();
+            } else {
+                throw new Error('Failed to send message');
+            }
+        })
+        .catch(error => {
+            showMessage('Error sending message. Please try again later.', 'error');
+            console.error('Error:', error);
+        });
+    });
+
+    function showMessage(text, type) {
+        const messageDiv = document.createElement('div');
+        messageDiv.className = `message ${type}`;
+        messageDiv.textContent = text;
+        
+        const contactSection = document.querySelector('.contact');
+        contactSection.insertBefore(messageDiv, contactSection.firstChild);
+        
+        setTimeout(() => {
+            messageDiv.remove();
+        }, 5000);
+    }
+    </script>
 </body>
 </html>
