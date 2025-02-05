@@ -93,14 +93,18 @@ body {
     transform: translateY(-2px);
 }
 
-/* Hero Section */
 .hero {
     padding: 160px 0 100px;
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: radial-gradient(circle at 50% 50%, #1E293B 0%, #0F172A 100%);
+    /* New background image (full-cover) */
+    background: url("https://i.imghippo.com/files/RJbH9530Eh.webp") center center / cover no-repeat;
+    /* Optionally add a dark overlay if the text is hard to read */
+    /* background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.4); */
 }
+
 
 .hero-title {
     font-size: 4rem;
