@@ -16,7 +16,7 @@
 body {
     font-family: 'Inter', system-ui, -apple-system, sans-serif;
     background-color: var(--primary-dark);
-    background-image: url('https://example.com/images/darkxai-logo.png'); /* Replace with actual logo URL */
+   /* background-image: url('https://example.com/images/darkxai-logo.png'); /* Replace with actual logo URL */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
