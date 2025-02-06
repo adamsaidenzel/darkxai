@@ -375,15 +375,77 @@ body {
 
 @media (max-width: 768px) {
     .nav-menu {
+        display: none;
+    }
+    
+    .nav.active .nav-menu {
         display: block;
+        position: absolute;
+        top: 80px;
+        right: 2rem;
+        background: var(--primary-medium);
+        padding: 1rem;
+        border-radius: 0.5rem;
+    }
+    
+    .nav-list {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .mobile-menu-toggle {
+        display: block;
+        background: none;
+        border: none;
+        color: white;
+        font-size: 1.5rem;
+        cursor: pointer;
     }
     
     .contact-grid {
         grid-template-columns: 1fr;
         padding: 2rem;
+        gap: 2rem;
     }
     
     .hero {
         padding-top: 120px;
+        min-height: 100dvh;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-title {
+        font-size: 2.5rem;
+        line-height: 1.2;
+    }
+    
+    .container {
+        padding: 0 1rem;
+    }
+    
+    .solution-card,
+    .industry-card {
+        padding: 1.5rem;
+    }
+    
+    .cta-button {
+        padding: 0.75rem 1rem;
+        font-size: 0.9rem;
+    }
+}
+
+/* Mobile touch optimizations */
+@media (hover: none) {
+    .cta-button:hover {
+        transform: none;
+    }
+    
+    .solution-card:hover {
+        transform: none;
+    }
+    
+    .nav-list a:hover {
+        color: #CBD5E1;
     }
 }
